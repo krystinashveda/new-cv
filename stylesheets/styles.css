@@ -1016,7 +1016,6 @@ footer {
 }
 
   ul.languages-list li {
-    border: 1px solid red;
     width: 49%;
-   float: left;
+    float: left;
 }
