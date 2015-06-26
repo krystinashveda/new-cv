@@ -976,6 +976,10 @@ footer {
   header ul {
     display: none;
   }
+  
+   .languages-list li {
+     float: none;
+   }
 }
 @media print {
   body {
@@ -1009,13 +1013,13 @@ footer {
   }
 }
 
-  ul.languages-list:after {
+  .languages-list:after {
     content: '';
     display: block;
     clear: both;
 }
 
-  ul.languages-list li {
+  .languages-list li {
     width: 49%;
     float: left;
 }
