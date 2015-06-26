@@ -1008,3 +1008,15 @@ footer {
     width: auto;
   }
 }
+
+  ul.languages:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+  ul.languages li {
+    border: 1px solid red;
+    width: 49%;
+   float: left;
+}
